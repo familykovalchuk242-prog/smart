@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест меню</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <button id="burger">☰</button>
+    <nav id="desktopMenu">
+      <ul>
+        <li>Технічна документація
+          <ul>
+            <li><a href="#">Протокол ПРГ</a></li>
+            <li><a href="#">Робочий проект</a></li>
+            <li><a href="#">Виконавчо-технічна документація</a></li>
+            <li><a href="#">Принципова схема ПРГ</a></li>
+            <li><a href="#">Режимна картка</a></li>
+          </ul>
+        </li>
+        <li>Виконання робіт
+          <ul>
+            <li><a href="#">Графік робіт</a></li>
+            <li><a href="#">Технічний огляд</a></li>
+            <li><a href="#">Регулювання</a></li>
+            <li><a href="#">ТО</a></li>
+            <li><a href="#">Плановий ремонт</a></li>
+            <li><a href="#">Обслуговування КВП</a></li>
+            <li><a href="#">Фотофіксація</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Інструкції та відео</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="mobileMenu" class="menu">
+    <div class="menu-header">
+      <button id="backMenu">←</button>
+      <span id="menuTitle"></span>
+      <button id="closeMenu">✖</button>
+    </div>
+    <ul></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
